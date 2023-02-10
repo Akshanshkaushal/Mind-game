@@ -1,0 +1,146 @@
+#title{
+    text-transform: capitalize;
+    color:gray;
+}
+.title{
+    text-transform: capitalize;
+    color:gray;
+}
+.button-yellow{
+    background-color: yellow;
+}
+.button-green{
+    background-color: green;
+}
+.button-blue{
+    background-color: blue;
+}
+.button-red{
+    background-color:red;
+}
+.bt{
+    display: block;
+    padding: 60px 90px;
+    border: 3px solid black;
+    border-radius: 15px;
+}
+.kt{
+    float: right;
+}
+
+
+
+@media only screen and (max-width:450px) {
+    .bt{
+        padding: 60px 50px;
+    }
+    #score{
+        padding: 15px 15px;
+        font-size: 25px;
+    }
+}
+
+
+.btnsw-yellow{
+    background-color: rgba(245, 245, 26, 0.7);
+    border: 10px solid rgba(30, 5, 5, 0.616);
+}
+.btnsw-green{
+    background-color: rgba(15, 255, 15, 0.7);
+    border: 10px solid rgba(0, 0, 0, 0.616);
+}
+.btnsw-blue{
+    background-color: rgba(5, 5, 241, 0.7);
+    border: 10px solid rgba(0, 0, 0, 0.616);
+}
+.btnsw-red{
+    background-color:rgba(246, 22, 22, 0.7);
+    border: 10px solid rgba(38, 4, 4, 0.616);
+}
+
+.pressed {
+    box-shadow: 0 0 20px rgb(68, 226, 176);
+    background-color: rgb(118, 252, 203);
+  }
+  
+
+  #score{
+    display: block;
+    color:gold;
+    padding: 24px 30px;
+    background: rgb(181, 57, 57);
+    border: 3px solid rgb(27, 97, 46);
+    border-radius: 15px;
+  }
+
+ h1{
+    color:blue;
+    text-decoration: wavy;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:auto;
+    padding: 5%;
+    font-size: 50px;
+    text-align: center;
+
+
+    animation: bouncing 0.5s ease 0s infinite alternate both;
+    background: rgb(5, 240, 138);
+    border-radius:0%;
+    display: inline-block;
+    color:white;
+    cursor:pointer;
+    font-size:  60px;
+    font-weight: 300;
+    letter-spacing: 0.2em;
+    padding: 1em 2em 1.1em;
+   
+    text-decoration: none;
+    text-decoration: uppercase;
+    vertical-align: top;
+    margin-top:100px;
+    text-align: center;
+}
+    @Keyframes bouncing{
+        0%{
+            bottom: 100px;
+            box-shadow: 0 50px 50px rgba(57, 1, 74, 0.1);
+        }
+    
+        100%{
+            bottom: 50px;
+           
+            box-shadow: 0 20px 20px  rgb(17, 209, 252);    
+        }
+
+}
+
+
+body{
+    background-image: url("   https://img.freepik.com/free-photo/old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-room-wall_1258-28312.jpg");
+  
+}
+
+h2{
+    font-size: 50px;
+    color: #5406fd;
+}
+
+h3{
+    font-size: 60px;
+    color: #1d0af4;
+}
+.warning-alert {
+    background-color: #ffb347;
+    color: #333;
+    padding: 1em;
+    border-radius: 5px;
+    position: relative;
+  }
+  
+  .warning-alert .close-button {
+    position: absolute;
+    right: 1em;
+    top: 0.5em;
+    font-size: 1.5em;
+    cursor: pointer;
+  }
